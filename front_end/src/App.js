@@ -1,7 +1,7 @@
 import jwt_decode from "jwt-decode";
 import { useEffect, useState } from "react";
 
-const clientId = "728138647338-na81khtsusgdmko5scop2if483sd7qjb.apps.googleusercontent.com";
+const clientId = process.env.REACT_APP_GOOGLE_AUTH_CLIENT_ID;
 
 function App() {
 
